@@ -1,0 +1,12 @@
+// C++ Print an Integer Value entered by User
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"Enter the Number: ";
+    cin>>num;
+    cout<<"\nYou've entered: "<<num;
+    cout<<endl;
+    return 0;
+}
