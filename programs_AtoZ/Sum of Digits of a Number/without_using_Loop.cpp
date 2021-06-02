@@ -7,12 +7,12 @@ int main()
     int num, rem, sum=0;
     cout<<"Enter the Number: ";
     cin>>num;
-    CODESCRSCKER:
+    CODES:
         rem = num%10;
         sum = sum+rem;
         num = num/10;
         if(num>0)
-            goto CODESCRSCKER;
+            goto CODES;
     cout<<"\nSum of Digits = "<<sum;
     cout<<endl;
     return 0;
