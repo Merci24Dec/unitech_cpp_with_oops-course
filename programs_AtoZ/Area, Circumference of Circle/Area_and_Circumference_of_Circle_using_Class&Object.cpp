@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-class CodesCracker
+class Codes
 {
     public:
         float findArea(float r)
@@ -16,7 +16,7 @@ class CodesCracker
 };
 int main()
 {
-    CodesCracker c;
+    Codes c;
     float rad, area, circum;
     cout<<"Enter the Radius of Circle: ";
     cin>>rad;
